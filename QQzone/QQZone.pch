@@ -1,0 +1,29 @@
+//
+//  QQZone.pch
+//  QQzone
+//
+//  Created by 初七 on 2016/12/29.
+//  Copyright © 2016年 nemo. All rights reserved.
+///
+
+#ifndef QQZone_pch
+#define QQZone_pch
+
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
+#define isLanscape (kWidth > kHeight)
+
+
+
+
+#import "ConstValue.h"
+#import "UIView+AdjustFrame.h"
+
+
+
+
+
+
+
+
+#endif /* QQZone_pch */
